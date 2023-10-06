@@ -1,0 +1,18 @@
+-- CREAR ENTORNO
+python -m venv env
+
+-- ACTIVAR ENTORNO
+cd [nombre de proyecto]
+source env/Script/activate
+
+-- DESACTIVAR ENTORNO
+deactivate
+
+-- OBTENER PLUGINS DEL PROYECTO
+pip freeze
+
+-- OBTENER LOS PLUGINS EN UN ARCHIVO 
+pip freeze > requirements.txt
+
+-- INSTALAR PLUGINS DE UN ARCHIVO
+pip install -r requirements.txt
