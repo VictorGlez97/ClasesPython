@@ -14,5 +14,8 @@ pip freeze
 -- OBTENER LOS PLUGINS EN UN ARCHIVO 
 pip freeze > requirements.txt
 
+-- VISUALIZAR EN CONSOLA LOS PLUGINS DEL ARCHIVO
+cat requirements.txt
+
 -- INSTALAR PLUGINS DE UN ARCHIVO
 pip install -r requirements.txt
