@@ -19,3 +19,53 @@ cat requirements.txt
 
 -- INSTALAR PLUGINS DE UN ARCHIVO
 pip install -r requirements.txt
+
+
+
+
+
+-- GITHUB
+
+
+** CREAR NUEVA RAMA **
+-- ABRIR LA RAMA
+git checkout [Rama de la cual vas a generar la clonación]
+
+-- CREAR LA NUEVA RAMA
+git checkout -b [Rama nueva]
+
+-- AGREGAR CAMBIOS EN BANDEJA
+git add .
+
+-- AGREGAR COMENTARIO A CAMBIOS
+git commit -m 'MENSAJE DESCRIPTIVO'
+
+-- AGREGAR RAMA CON MODIFICACIONES
+git push origin [Rama nueva]
+
+
+** ELIMINAR UNA RAMA **
+-- OBTENER LA RAMA
+git pull origin [Nombre de la rama]
+
+-- ELIMINAR LOCALMENTE
+git branch -d [Nombre de la rama] 
+o
+git branch -D [Nombre de la rama]
+
+-- ELIMINAR RAMA DE GITHUB
+git push origin --delete [Nombre de la rama]
+
+
+** UNIR CAMBIOS DE UNA RAMA A OTRA **
+-- MOVERSE A LA RAMA DE DESTINO
+git checkout [Rama destino]
+
+-- FUSIONAR LA RAMA DE ORIGEN CON LA RAMA DESTINO
+git merge [Rama origen]
+
+-- SUBIENDO LOS CAMBIOS FUSIONADOS
+git push origin [Rama destino]
+
+
+
