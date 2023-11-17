@@ -15,4 +15,13 @@ cd app
 source env/Scripts/activate
 pip install -r requirements.txt
 python main
+```
 
+# Prediccion
+
+```sh
+git clone 
+cd Prediccion
+pip install -r requirements.txt
+uvicorn app:app --reload
+```
