@@ -67,5 +67,3 @@ git merge [Rama origen]
 -- SUBIENDO LOS CAMBIOS FUSIONADOS
 git push origin [Rama destino]
 
-
-
